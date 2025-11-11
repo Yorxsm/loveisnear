@@ -74,10 +74,10 @@ export const TokenInfo = () => {
               ❤️ Love letters in web3
             </li>
             <li className="text-center text-purple-800 font-love">
-              ❤️ X spaces: "Is love overrated?"
+              ❤️ X spaces
             </li>
             <li className="text-center text-purple-800 font-love">
-              ❤️ Couple spotlight
+              ❤️ Spotlight
             </li>
           </ul>
         </div>

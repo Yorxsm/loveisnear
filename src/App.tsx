@@ -30,7 +30,7 @@ export function App() {
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-12">
               <div className="w-full md:w-1/2 flex justify-center">
                 <div className="relative w-64 h-64 md:w-80 md:h-80">
-                  <img src="/photo_5805520166480186431_y.jpg" alt="LOVE Token" className="w-full h-full object-contain" />
+                  <img src="/logo.jpg" alt="LOVE Token" className="w-full h-full object-contain" />
                   <div className="absolute inset-0 bg-white/10 rounded-full animate-pulse"></div>
                 </div>
               </div>

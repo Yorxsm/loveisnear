@@ -3,7 +3,7 @@ import { HeartIcon, Copy, Check } from 'lucide-react';
 import toast, { Toaster } from 'react-hot-toast';
 export const BuyButton = () => {
   const [copied, setCopied] = useState(false);
-  const ticker = 'Love-1849.meme-cooking.near';
+  const ticker = 'Coming Soon';
   const handleCopy = () => {
     navigator.clipboard.writeText(ticker);
     setCopied(true);
@@ -19,7 +19,7 @@ export const BuyButton = () => {
   };
   return <div className="flex flex-col items-center">
       <Toaster position="top-center" />
-      <a href="https://meme.cooking/near/love" target="_blank" rel="noopener noreferrer" className="group">
+      <a href="https://meme.cooking/" target="_blank" rel="noopener noreferrer" className="group">
         <button className="bg-pink-600 hover:bg-pink-700 text-white text-xl md:text-2xl font-love px-8 md:px-12 py-4 md:py-6 rounded-full shadow-lg flex items-center gap-3 transform transition-all duration-300 hover:scale-105 hover:shadow-xl border-2 border-pink-700">
           <HeartIcon size={24} className="text-white fill-white group-hover:animate-pulse" />
           <span className="font-bold">Buy $LOVE</span>
@@ -34,7 +34,7 @@ export const BuyButton = () => {
           "The greatest gift you can give is LOVE"
         </p>
         <p className="text-xs md:text-sm text-pink-600 font-love">
-          Join thousands of hearts united on the NEAR Protocol
+          Join thousands of hearts united on NEAR Protocol
         </p>
       </div>
     </div>;
